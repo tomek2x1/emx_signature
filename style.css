@@ -1,0 +1,135 @@
+.signature {
+  max-width: 600px;
+  border-radius: 10px;
+  background-color: #efefef;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 20px;
+}
+
+.signature__col1{
+  float: left;
+  width:300px;
+  margin-right:50px;
+}
+.signature__col2{
+  float: left;
+  width:250px;
+  /* text-align: center; */
+}
+
+.signature__clear {
+  clear: both;
+}
+
+.signature__name {
+  font-size: 30px;
+  font-weight:lighter;
+
+}
+
+.signature__name-surname {
+  font-weight: bold;
+  color: #f29400;
+}
+
+.signature__position{
+  margin-top:5px;
+  margin-bottom:10px;
+}
+
+.signature__info{
+  margin: 10px 20px;
+}
+
+.signature__link {
+  text-decoration: none;
+  height:26px;
+  line-height: 26px;
+}
+
+.signature__icon-wrapper {
+  float: left;
+  margin-right: 10px;
+  background: #f29400;
+}
+
+.signature__icon-wrapper--first{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.signature__icon-wrapper--third{
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.signature__icon-wrapper--fourth{
+  border-radius: 50%;
+  padding:0;
+}
+
+.signature__icon-wrapper .fa{
+  float: left;
+  width:26px;
+  height:26px;
+  line-height: 26px;
+  text-align: center;
+  color:#fff;
+}
+
+.signature__link{
+  color:#000;
+}
+
+.signature__row--location{
+  margin-top:10px;
+}
+
+.signature__row--location .signature__link-wrapper{
+  line-height: 26px;
+}
+
+.signature__col2{
+  min-height:100%;
+}
+
+.signature__social-media{
+  border-radius: 20px;
+  background: #f29400;
+  display: inline-block;
+  margin: 10px 0px 0px;
+  height:26px;
+  line-height: 26px;
+  padding-left:10px;
+  padding-right: 10px;
+  margin-right:20px;
+}
+
+.signature__social-media a{
+  color:#fff;
+  font-size:15px;
+}
+
+.signature__social-media a:nth-child(2){
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Company */
+.company{
+  text-align: right;
+}
+
+.company__logo{
+  width:220px;
+  display: block;
+  margin-bottom:23px;
+}
+
+.company__address{
+  text-align:left;
+}
+
+.company__address-row{
+  line-height: 26px;
+}
